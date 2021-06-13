@@ -1,0 +1,109 @@
+/* * {
+    box-sizing: border-box;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    max-width: 720px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenedor {
+    width: auto;
+    height: auto;
+    /*background-position: center;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div .img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    display: block;
+    
+}
+
+.i {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18.75rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 42px;
+    /*background-color: #ccffbd;*/
+    font-size: 1.2rem;
+    color: black;  
+    text-align: center;  
+}
+
+#e {
+    background-color: #e6dd3b;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+}
+
+#e:hover {
+    background-color: #ffc107;
+}   
+
+#p {
+    background-color: #864000;
+    border-radius: 15px;
+    border-bottom: 7px solid rgb(82, 163, 2);
+}
+
+#p:hover {
+    background-color: #d44000;
+    border-bottom: 7px solid chartreuse;
+}
+
+
+
+.s1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 19rem;
+    height: 2.5rem;
+    border: none;
+    background-color: #864000/*#29bb89*/;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    border-top: 5px solid rgb(82, 163, 2);
+}
+.s1:hover {
+    cursor: pointer;
+    background-color: #d44000/*#00da6d*/;
+    border-top: 5px solid chartreuse;
+}
+
+.s2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 19rem;
+    height: 2.5rem;
+    border: none;
+    background-color: #e6dd3b;
+    border-radius: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 1.1rem;
+    color:rgb(119, 2, 2);
+    /*background: linear-gradient(to bottom, #ffc107,#e6dd3b);*/
+} 
+
+.s2:hover {
+    cursor: pointer;
+    background-color: #ffc107;
+}
